@@ -1,0 +1,228 @@
+.bodyCategory {
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6796ee 100%);
+  margin: 0;
+  height: 90vw;
+}
+
+.navbar,
+.navbarAv,
+.navbarWyb {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.navbar:hover {
+  background-color: #ccc;
+  color: #002d80;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.navbarWyb:hover {
+  background-color: #ccc;
+  color: #002d80;
+}
+
+/* Style avatara */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Style wyświetlania nazwiska użytkownika w navbarze */
+.navbar1 {
+  color: #000;
+  font-size: 18px;
+  margin-left: -25px;
+  margin-right: 20px;
+}
+
+.navbar-contact {
+  font-weight: bold;
+  color: #fff;
+  background-color: #002d80;
+  border-radius: 5px;
+}
+
+.panel {
+  width: 900px;
+  margin: 20px auto;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px #a2c0f8;
+}
+
+.panel:hover {
+  box-shadow: 0px 0px 20px 20px #002d80;
+}
+
+.categoryHeader {
+  font-weight: bold;
+  text-align: center;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.editButton,
+.deleteButton,
+.goBackButton,
+.AddEntriesButton {
+  cursor: pointer;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-left: 9px;
+  margin-right: 5px;
+}
+
+.editButton,
+.deleteButton,
+.AddEntriesButton {
+  background-color: #002d80;
+  color: white;
+}
+
+.goBackButton {
+  background-color: #ccc;
+  color: #002d80;
+}
+
+.editButton:hover,
+.deleteButton:hover,
+.AddEntriesButton:hover {
+  background-color: #ccc;
+  color: #002d80;
+}
+
+.goBackButton:hover {
+  background-color: #002d80;
+  color: white;
+}
+
+.h3wyd {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.h3sta {
+  margin-bottom: 50px;
+}
+
+.editButton img,
+.deleteButton img {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+/* Style paska postępu dla kategorii */
+.progressBarDiv {
+  height: 40px;
+  background-color: white;
+  position: relative;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 55px;
+  text-align: center;
+  margin-bottom: 55px;
+  border-style: solid;
+  border-radius: 13px;
+}
+
+/* Style wypełnienia paska postępu dla kategorii */
+.fillStyles {
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Style szczegółów kategorii */
+.categoryDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Style elementów szczegółów kategorii */
+.categoryDetails div {
+  width: 50%;
+  text-align: center;
+}
+
+/* Style kwoty kategorii typu "WPŁYWY" */
+.categoryAmountW {
+  margin-top: 35px;
+  text-align: center;
+  font-size: large;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+}
+
+/* Style szczegółów kategorii */
+.amount {
+  text-decoration: underline;
+  font-weight: bold;
+  color: green;
+}
+
+.transactionTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+.transactionTable th,
+.transactionTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.transactionTable th {
+  background-color: #f2f2f2;
+}
+
+.optionButton {
+  cursor: pointer;
+  padding: 6px 12px;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: #002d80;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.optionButton:hover {
+  background-color: #ccc;
+  color: #002d80;
+}

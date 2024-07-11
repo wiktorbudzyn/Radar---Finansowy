@@ -1,0 +1,449 @@
+.bodyWallet {
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6796ee 100%);
+  margin: 0;
+  height: 110vw;
+}
+
+/* Style nawigacji */
+.navbar,
+.navbarWyb,
+.navbarAv {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.navbar:hover,
+.navbarWyb:hover {
+  background-color: #ccc;
+  color: #002d80;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Style avatara */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Style wyświetlania nazwiska użytkownika w navbarze */
+.navbar1 {
+  color: #000;
+  font-size: 18px;
+  margin-left: -25px;
+  margin-right: 20px;
+}
+
+/* Styl wyboru "Portfel" w navbarze */
+.navbar-contact {
+  font-weight: bold;
+  color: #fff;
+  background-color: #002d80;
+  border-radius: 5px;
+}
+
+/* Style sekcji wyboru miesiąca */
+.monthSelectorWrapper {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style kalendarza */
+.calendar {
+  background-color: #002d80;
+  color: white;
+  text-align: center;
+  width: 150px;
+  border: none;
+}
+
+.monthSelector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #002d80;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.monthSelector:hover {
+  font-weight: bold;
+  background-color: #ccc;
+  color: #002d80;
+}
+
+.monthSelector:hover button,
+.monthSelector:hover .span1,
+.monthSelector:hover .calendar {
+  font-weight: bold;
+  background-color: #ccc;
+  color: #002d80;
+  background: none;
+  border: none;
+}
+
+.monthSelector button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.span1 {
+  margin: 0 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.CalendarDown {
+  font-size: 18px;
+  font-weight: bold;
+  color: #002d80;
+}
+
+.CalendarDown button {
+  font-weight: bold;
+  color: #002d80;
+}
+
+/* Style przycisków reprezentujących portfele użytkownika */
+.walletBtn {
+  background-color: #002d80;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 180px;
+  height: 80px;
+  padding: 12px 0;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.walletBtn:hover {
+  font-weight: bold;
+  background-color: #ccc;
+  color: #002d80;
+}
+
+/* Style przycisku dodawania nowego portfela */
+.AddwalletBtn {
+  background-color: #ccc;
+  color: #002d80;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 180px;
+  height: 80px;
+  padding: 12px 0;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.AddwalletBtn:hover {
+  background-color: #002d80;
+  color: white;
+}
+
+/* Style wybranego portfela */
+.selectedWallet {
+  background-color: #ccc;
+  color: #002d80;
+  border: #002d80 4px dashed;
+}
+
+.selectedWalletInfo h3 {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.selectedWalletInfo h2 {
+  font-size: smaller;
+  font-weight: normal;
+}
+
+/* Style wyświetlania informacji o portfelu */
+.selectedWalletInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Style detali portfela */
+.walletDetails {
+  width: 350px;
+  height: 250px;
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px #a2c0f8;
+  transition: transform 1s ease;
+}
+
+.walletDetails:hover {
+  box-shadow: 0px 0px 20px 20px #002d80;
+}
+
+.PSaldo {
+  font-size: x-large;
+  font-weight: bold;
+}
+.PActualbudget {
+  margin-top: -15px;
+  font-size: smaller;
+  font-weight: normal;
+}
+.Pbudget {
+  font-size: smaller;
+  font-weight: normal;
+  margin-top: -15px;
+}
+
+/* Style przycisków akcji dla wybranego portfela */
+.actionButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 180px;
+  margin-top: 50px;
+}
+
+.editButton img,
+.deleteButton img {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.editButton,
+.deleteButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002d80;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 180px;
+  height: 50px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.editButton:hover,
+.deleteButton:hover {
+  background-color: #ccc;
+  color: #002d80;
+}
+
+/* Style przycisku dodawania nowej kategorii */
+.AddCategoryBtn {
+  background-color: #ccc;
+  color: #002d80;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 460px;
+  max-width: 500px;
+  height: 250px;
+  padding: 12px 20px;
+  font-size: xx-large;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.AddCategoryBtn:hover {
+  background-color: #002d80;
+  color: white;
+}
+
+/* Style sekcji wyświetlającej listę kategorii */
+.categoryDiv {
+  color: black;
+  box-shadow: 0px 0px 5px 5px #a2c0f8;
+  border-radius: 20px;
+  font-weight: normal;
+  border: none;
+  outline: none;
+  width: 460px;
+  max-width: 500px;
+  height: 250px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.categoryDiv:hover {
+  box-shadow: 0px 0px 15px 15px #002d80;
+}
+
+/* Style wykresu kołowego */
+.PieChart {
+  margin-left: -90px;
+}
+
+/* Style kontenera dla sekcji wyświetlającej listę kategorii */
+.categoryButtons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 80px;
+  padding: 0 20px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style kontenera dla listy kategorii */
+.categoriesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Style informacji o kategorii */
+.categoryInfo {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style nazwy kategorii */
+.categoryName {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+/* Style kwoty kategorii */
+.categoryAmount {
+  margin-top: 15px;
+}
+
+/* Style nazwy kategorii typu "WPŁYWY" */
+.categoryNameWCenter {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style kwoty kategorii typu "WPŁYWY" */
+.categoryAmountW {
+  margin-top: 35px;
+  text-align: center;
+  font-size: large;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style szczegółów kategorii */
+.amount {
+  text-decoration: underline;
+  font-weight: bold;
+  color: green;
+}
+
+/* Style przycisku pokazującego szczegóły kategorii */
+.showDetailsButton {
+  background-color: #002d80;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-weight: bold;
+  width: 180px;
+  height: 50px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.showDetailsButton:hover {
+  background-color: #ccc;
+  color: #002d80;
+}
+
+/* Style paska postępu dla kategorii */
+.progressBarDiv {
+  height: 40px;
+  background-color: white;
+  position: relative;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+  border-style: solid;
+  border-radius: 13px;
+}
+
+/* Style wypełnienia paska postępu dla kategorii */
+.fillStyles {
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Style szczegółów kategorii */
+.categoryDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Style elementów szczegółów kategorii */
+.categoryDetails div {
+  width: 50%;
+  text-align: center;
+}

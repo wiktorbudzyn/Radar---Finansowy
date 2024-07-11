@@ -1,0 +1,15 @@
+{
+  "name": "radar-finansowy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd backend && npm install && cd ../frontend/app && npm install",
+    "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend/app && npm start"
+  },
+
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

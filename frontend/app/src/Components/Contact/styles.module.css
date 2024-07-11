@@ -1,0 +1,85 @@
+.bodyContact {
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6796ee 100%);
+  margin: 0;
+  height: 100vh;
+}
+
+.navbar,
+.navbarWyb,
+.navbarAv {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.navbar:hover {
+  background-color: #ccc;
+  color: #002d80;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.navbarWyb:hover {
+  background-color: #ccc;
+  color: #002d80;
+}
+
+/* Style avatara */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Style wyświetlania nazwiska użytkownika w navbarze */
+.navbar1 {
+  color: #000;
+  font-size: 18px;
+  margin-left: -25px;
+  margin-right: 20px;
+}
+
+.navbar-contact {
+  font-weight: bold;
+  color: #fff;
+  background-color: #002d80;
+  border-radius: 5px;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 150px;
+}
+
+.contactPanel {
+  width: 350px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px #a2c0f8;
+  background-color: #fff;
+  text-align: center;
+  transition: transform 1s ease;
+}
+
+.contactPanel:hover {
+  box-shadow: 0px 0px 20px 20px #002d80;
+}
+
+.panelTitle {
+  color: #002d80;
+}
+
+.socialLinks {
+  margin-top: 10px;
+}
+
+.socialLinks img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}

@@ -1,0 +1,50 @@
+.bodyEditFinancialGoal {
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6796ee 100%);
+  margin: 0;
+  height: 100vh;
+}
+
+.navbar,
+.navbarWyb,
+.navbarAv {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.navbar:hover {
+  background-color: #ccc;
+  color: #002d80;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.navbarWyb:hover {
+  background-color: #ccc;
+  color: #002d80;
+}
+
+/* Style avatara */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Style wyświetlania nazwiska użytkownika w navbarze */
+.navbar1 {
+  color: #000;
+  font-size: 18px;
+  margin-left: -25px;
+  margin-right: 20px;
+}
+
+.navbar-contact {
+  font-weight: bold;
+  color: #fff;
+  background-color: #002d80;
+  border-radius: 5px;
+}

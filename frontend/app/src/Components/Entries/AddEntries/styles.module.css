@@ -1,0 +1,180 @@
+.bodyAddEntries {
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6796ee 100%);
+  margin: 0;
+  height: 70vw;
+}
+
+.navbar,
+.navbarWyb,
+.navbarAv {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.navbar:hover {
+  background-color: #ccc;
+  color: #002d80;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.navbarWyb:hover {
+  background-color: #ccc;
+  color: #002d80;
+}
+
+/* Style avatara */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Style wyświetlania nazwiska użytkownika w navbarze */
+.navbar1 {
+  color: #000;
+  font-size: 18px;
+  margin-left: -25px;
+  margin-right: 20px;
+}
+.navbar-contact {
+  font-weight: bold;
+  color: #fff;
+  background-color: #002d80;
+  border-radius: 5px;
+}
+
+.BtnAcc {
+  background-color: #002d80;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 180px;
+  padding: 12px 0;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.BtnAcc:hover {
+  background-color: #ccc;
+  color: #002d80;
+}
+
+.BtnCan {
+  background-color: #ccc;
+  color: #002d80;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 180px;
+  padding: 12px 0;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.BtnCan:hover {
+  background-color: #002d80;
+  color: white;
+}
+
+.BtnAcc,
+.BtnCan {
+  display: inline-block;
+  width: 180px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.addEntriesContainer {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 15px #a2c0f8;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.texh2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.inputGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.inputContainer {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.inputLabel {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.select,
+input {
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.buttonsContainer {
+  text-align: center;
+}
+
+.amountContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+input[type="number"] {
+  width: calc(100% - 40px);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.currency {
+  position: absolute;
+  right: 10px;
+  color: #555;
+  font-size: 16px;
+}

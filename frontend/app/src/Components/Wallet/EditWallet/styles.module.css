@@ -1,0 +1,191 @@
+.bodyEditWallet {
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6796ee 100%);
+  margin: 0;
+  height: 110vh;
+}
+
+.navbar,
+.navbarWyb,
+.navbarAv {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.navbar:hover {
+  background-color: #ccc;
+  color: #002d80;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.navbarWyb:hover {
+  background-color: #ccc;
+  color: #002d80;
+}
+
+/* Style avatara */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Style wyświetlania nazwiska użytkownika w navbarze */
+.navbar1 {
+  color: #000;
+  font-size: 18px;
+  margin-left: -25px;
+  margin-right: 20px;
+}
+
+.navbar-contact {
+  font-weight: bold;
+  color: #fff;
+  background-color: #002d80;
+  border-radius: 5px;
+}
+
+.addWalletContainer {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 15px #a2c0f8;
+  margin: 50px auto;
+  margin-top: 5px;
+  overflow-y: auto;
+}
+
+.addWalletPanel {
+  width: 100%;
+  text-align: center;
+}
+
+.panelHeader {
+  font-weight: bold;
+  text-align: center;
+}
+
+label {
+  text-align: left;
+}
+
+.inputFields {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.inputFields label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.inputFields input {
+  width: 70%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-around;
+}
+
+.backButton {
+  background-color: #ccc;
+  color: #002d80;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 180px;
+  padding: 12px 0;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.saveButton {
+  background-color: #002d80;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 180px;
+  padding: 12px 0;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.backButton:hover {
+  background-color: #002d80;
+  color: white;
+}
+
+.saveButton:hover {
+  background-color: #ccc;
+  color: #002d80;
+}
+
+.inputField {
+  width: calc(100% - 30px);
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.inputLabel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.inputWithIcon {
+  display: flex;
+  align-items: center;
+}
+
+.currencyLabel {
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: -50px;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: normal;
+}
+.infoIcon {
+  margin-top: -10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.infoText {
+  font-size: 12px;
+  margin-left: 5px;
+  color: #555;
+}
+
+.tooltip {
+  max-width: 150px;
+  font-size: 12px;
+  background-color: #333;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}

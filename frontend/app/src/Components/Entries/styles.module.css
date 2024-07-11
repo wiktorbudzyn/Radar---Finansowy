@@ -1,0 +1,218 @@
+.EntriesBody {
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6796ee 100%);
+  margin: 0;
+  height: 140vw;
+}
+
+.navbar,
+.navbarWyb,
+.navbarAv {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.navbar:hover {
+  background-color: #ccc;
+  color: #002d80;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.navbarWyb:hover {
+  background-color: #ccc;
+  color: #002d80;
+}
+
+/* Style avatara */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Style wyświetlania nazwiska użytkownika w navbarze */
+.navbar1 {
+  color: #000;
+  font-size: 18px;
+  margin-left: -25px;
+  margin-right: 20px;
+}
+
+.navbar-contact {
+  font-weight: bold;
+  color: #fff;
+  background-color: #002d80;
+  border-radius: 5px;
+}
+
+.optionsSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.addEntryButton button {
+  background-color: #002d80;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 200px;
+  height: 100px;
+  padding: 12px 0;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.addEntryButton button:hover {
+  background-color: #ccc;
+  color: #002d80;
+}
+
+.dateOptions {
+  margin-right: 70px;
+}
+.dateOptions select {
+  margin-top: 50px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  padding: 12px 0;
+  font-size: 16px;
+  background-color: #002d80;
+  color: white;
+  text-align: center;
+}
+
+.line {
+  border: none;
+  height: 10px;
+  background-color: #0044cc;
+  margin: 20px 0;
+}
+
+.filterText {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filtersSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.portfolio,
+.categoryType,
+.transactionType {
+  display: flex;
+  align-items: center;
+  margin: 0 60px;
+}
+
+span {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+select {
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+  width: 190px;
+}
+
+.buttonFilter {
+  background-color: #002d80;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 150px;
+  height: 50px;
+  padding: 12px 0;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.buttonFilter:hover {
+  background-color: #ccc;
+  color: #002d80;
+}
+
+.GLD {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 5px 5px #a2c0f8;
+  padding: 20px;
+  margin: auto;
+  width: 90%;
+  background-color: #fff;
+  margin-top: 40px;
+}
+
+.GLD:hover {
+  box-shadow: 0px 0px 20px 20px #002d80;
+}
+
+.tableSection {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.optionButton {
+  cursor: pointer;
+  padding: 6px 12px;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: #002d80;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.optionButton:hover {
+  background-color: #ccc;
+  color: #002d80;
+}

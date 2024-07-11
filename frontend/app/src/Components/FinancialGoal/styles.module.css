@@ -1,0 +1,198 @@
+.bodyFinancialGoal {
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6796ee 100%);
+  margin: 0;
+  height: 90vw;
+}
+
+.navbar,
+.navbarWyb,
+.navbarAv {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.navbar:hover {
+  background-color: #ccc;
+  color: #002d80;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.navbarWyb:hover {
+  background-color: #ccc;
+  color: #002d80;
+}
+
+/* Style avatara */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Style wyświetlania nazwiska użytkownika w navbarze */
+.navbar1 {
+  color: #000;
+  font-size: 18px;
+  margin-left: -25px;
+  margin-right: 20px;
+}
+
+.navbar-contact {
+  font-weight: bold;
+  color: #fff;
+  background-color: #002d80;
+  border-radius: 5px;
+}
+
+.financialGoalsButtons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.addBtn {
+  background-color: #002d80;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 180px;
+  height: 80px;
+  padding: 12px 0;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.addBtn:hover {
+  font-weight: bold;
+  background-color: #ccc;
+  color: #002d80;
+}
+
+.naglH2 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.financialGoalsList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.goalsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.goalCard {
+  color: black;
+  box-shadow: 0px 0px 5px 5px #a2c0f8;
+  border-radius: 20px;
+  font-weight: normal;
+  border: none;
+  outline: none;
+  width: 460px;
+  max-width: 500px;
+  height: 450px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.goalCard:hover {
+  box-shadow: 0px 0px 15px 15px #002d80;
+}
+
+.GoalName {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.GoalTargetAmount {
+  margin-top: 15px;
+}
+
+.GoalDayEnding {
+  margin-top: 15px;
+}
+
+.showDetailsButton {
+  background-color: #002d80;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-weight: bold;
+  width: 180px;
+  height: 50px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.showDetailsButton:hover {
+  background-color: #ccc;
+  color: #002d80;
+}
+
+.progressBar {
+  height: 60px;
+  background-color: white;
+  position: relative;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 45px;
+  text-align: center;
+  margin-bottom: 15px;
+  border-style: solid;
+  border-radius: 13px;
+}
+
+.progressFill {
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  transition: width 0.5s ease-in-out;
+}
+
+.progressInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.successMessage {
+  margin-top: -100px;
+  margin-bottom: 50px;
+  font-size: xx-large;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  z-index: 10;
+}

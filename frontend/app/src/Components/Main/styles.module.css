@@ -1,0 +1,161 @@
+.bodyMain {
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6796ee 100%);
+  margin: 0;
+  height: 55vw;
+}
+
+.navbar,
+.navbarAv {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.navbar:hover {
+  background-color: #ccc;
+  color: #002d80;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Style avatara */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Style wyświetlania nazwiska użytkownika w navbarze */
+.navbar1 {
+  color: #000;
+  font-size: 18px;
+  margin-left: -25px;
+  margin-right: 20px;
+}
+.panelContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.FirstDivPanel {
+  background-color: #a2c0f8;
+  padding: 1px;
+  margin-top: -5px;
+  border-radius: 30px;
+  width: 90%;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 450px;
+}
+
+.SecDivPanel1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 50px;
+}
+
+.SecDivPanel2 {
+  margin-top: 50px;
+}
+
+.SecDivPanel3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.panel {
+  padding: 20px;
+  width: calc(33.33% - 20px);
+  box-shadow: 0px 0px 5px 5px #a2c0f8;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.panel:hover {
+  box-shadow: 0px 0px 20px 20px #002d80;
+}
+.panel h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.addButton {
+  background-color: #002d80;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  display: block;
+  width: 250px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.addButton:hover {
+  background-color: #ccc;
+  color: #002d80;
+}
+
+.addButton + .addButton {
+  margin-top: 10px;
+}
+
+.transactionItem {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.transactionRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.transactionSeparator {
+  border: 0;
+  height: 1px;
+  background: #333;
+  margin-top: 10px;
+}
+
+.transactionRow1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.desOP {
+  text-align: center;
+  width: 100%;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.amountRed {
+  color: red;
+}
+
+.amountGreen {
+  color: green;
+}
